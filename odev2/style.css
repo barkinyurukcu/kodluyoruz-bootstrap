@@ -45,8 +45,24 @@ body{
     font-weight: bolder;
     font-size: 12px;
 }
+.sidelink:hover{
+    color: rgb(28, 139, 212);
+}
+.sidelink:active{
+    color: rgb(109, 168, 207);
+}
 .sidebar{
     position: -webkit-sticky;
     position: sticky;
     top: 80px;
+}
+.post-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+.post-title:hover{
+    color: black;
+    text-decoration: underline;
 }
